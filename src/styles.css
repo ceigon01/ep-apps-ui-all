@@ -1,1 +1,148 @@
-/* You can add global styles to this file, and also import other style files */
+li {
+  border-color: #F7F7F7 !important;
+}
+body{
+  background-image: url('/assets/img/nav/back.png');
+  background-repeat: repeat-y;
+  min-width: 900px;
+}
+.content-bkg{
+  background-image: url('/assets/img/nav/body-bkg.png');
+  background-repeat: no-repeat;
+  opacity: .1;
+  background-position:bottom right;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: -2.5em;
+  overflow: hidden;
+}
+/* nav styles */
+a, a:visited {
+  font-size: 14px !important;
+  text-decoration: none !important;
+}
+a:hover{
+  opacity: 0.75;
+  color: inherit;
+}
+a:visited {
+  color:#000;
+}
+.icon li {
+  display: inline;
+  font-size: 48px;
+  margin: 5px;
+  position: relative;
+}
+.image-icon,.logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.image-icon {
+  max-width: 23px;
+  margin-right:10px;
+  cursor: pointer !important;
+}
+.logo {
+  background-position: left center;
+  height: 30px;
+}
+.nav-pills .nav-link.active{
+  color: #000 !important;
+  font-weight: 600;
+  border-radius: 20px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0!important;
+  background: #f1f1f1; /* Old browsers */
+  background: -moz-linear-gradient(left,  #f1f1f1 0%, #ffffff 93%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #f1f1f1 0%,#ffffff 93%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #f1f1f1 0%,#ffffff 93%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+.btn-link,.nav-item .nav-link.active, a:active,p a, a:hover{
+  color:#D6733D !important;
+}
+.nav-link.active {
+  font-weight: bold;
+}
+.nav-pills .nav-link {
+  color: #000;
+}
+.nav-pills .sub-heading {
+  font-size: 14px;
+  opacity: 0.5;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.binder-logo {
+  background-image: url('/assets/img/nav/app-logo.svg');
+}
+.notebooks-icon {
+  background-image: url('/assets/img/nav/notebooks.svg');
+}
+.templates-icon {
+  background-image: url('/assets/img/nav/template.svg');
+}
+.clean-icon {
+  background-image: url('/assets/img/nav/clean.svg');
+}
+.screens-icon {
+  background-image: url('/assets/img/nav/screen.svg');
+}
+.restart-icon {
+  background-image: url('/assets/img/nav/restart.svg');
+}
+.downloads-icon {
+  background-image: url('/assets/img/nav/downloads.png');
+}
+.actions-icon {
+  background-image: url('/assets/img/nav/actions.svg');
+}
+.settings-icon {
+  background-image: url('/assets/img/nav/settings.svg');
+}
+.admin-icon {
+  background-image: url('/assets/img/nav/admin.png');
+}
+.home-icon {
+  background-image: url('/assets/img/nav/home.png');
+}
+.tag-icon{
+  background-image: url('assets/img/nav/tag-icon.svg');
+}
+.menu-icon {
+  width: 41px;
+  height: 41px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/img/nav/menu-icon.svg');
+}
+.close-icon {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('/assets/img/nav/close-icon.svg');
+}
+.status-indicator {
+  border-radius: 50%;
+  height:15px;
+  width:15px;
+  line-height: 20px;
+  background-color: gray;
+}
+.status-indicator-text{
+  padding:4px;
+  line-height: 8px;
+}
+.status-indicator.active {
+  background-color: forestgreen;
+}
+.status-indicator.inactive {
+  background-color: red;
+}
+
